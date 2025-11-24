@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "title": " 마이크로 애플리케이션",
+    "description": "모던한 기술 스택을 활용한 반응형 웹 애플리케이션입니다. 사용자 경험을 최우선으로 고려하여 설계되었습니다.",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "demoUrl": "#",
+    "githubUrl": "https://www.daum.net",
+    "image": "./images/이이경.png"
+  },
+  {
+    "id": 2,
+    "title": "모바일 웹사이트",
+    "description": "모바일 우선 접근 방식으로 개발된 웹사이트입니다. 다양한 디바이스에서 최적의 경험을 제공합니다.",
+    "tags": ["Responsive", "Mobile-first", "PWA"],
+    "demoUrl": "#",
+    "githubUrl": "#",
+    "image": ""
+  }
+]
+

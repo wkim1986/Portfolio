@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포트폴리오 | 김원빈 교수</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 헤더 및 내비게이션 -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 메인 섹션 -->
+    <main>
+        <!-- 홈 섹션 -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">안녕하세요, 김원빈입니다</h1>
+                    <p class="hero-subtitle">한국성서대학교 컴퓨터소프트웨어학과 교수</p>
+                    <a href="#projects" class="btn btn-primary">프로젝트 보기</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 프로젝트 섹션 -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">프로젝트</h2>
+                <div class="projects-grid" id="projects-grid">
+                    <!-- 프로젝트 카드는 JavaScript로 동적으로 생성됩니다 -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 연락처 섹션 -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">연락하기</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h3>김원빈 교수</h3>
+                        <p>한국성서대학교 컴퓨터소프트웨어학과에서 교육 및 연구 활동을 하고 있습니다. 학술 연구, 프로젝트 협업, 강의 관련 문의사항이 있으시면 언제든지 연락주세요.</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <strong>소속</strong>
+                                <span>한국성서대학교 컴퓨터소프트웨어학과</span>
+                            </div>
+                            <div class="contact-item">
+                                <strong>직책</strong>
+                                <span>교수</span>
+                            </div>
+                            <div class="contact-item">
+                                <strong>이메일</strong>
+                                <span>your.email@example.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <strong>전화번호</strong>
+                                <span>010-1234-5678</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">이름</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">이메일</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">메시지</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">보내기</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 김원빈 교수. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
